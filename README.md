@@ -2,7 +2,7 @@
 Replication data for ["Estimating Average Treatment Effects with Support Vector Machines"](https://arxiv.org/abs/2102.11926) by Alexander Tarr and Kosuke Imai.
 
 ## Repository Layout
-This repository is split into several folders: code, data, figures and results.
+This repository is split into several folders: ``code``, ``data``, ``figures`` and ``results``.
 
 - ``code``: This folder contains all scripts needed to be run in order to generate all data to be used in creating figures.
 - ``data``: This contains both the simulation data and the right heart catheterization data used in the empirical analysis in the paper.
