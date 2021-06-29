@@ -65,5 +65,5 @@ The intermediary data computed by our algorithm and those we compare against can
 
 - When fully replicating the results, scripts should be executed in the order listed above so that each method makes use of the most recent data as opposed to that already provided. 
 - Full replication of the results in the paper require multiple calls to the Python scripts until all kernels and simulations have been passed to the script.
-- Variance estimates for methods compared SVM against for the RHC data rely on two files, ``cv0.csv`` and ``cv1.csv``, which are contained in the ``results`` folder. These files contain the conditional variance estimates computed using a nearest-neighbors algorithm and can be recreated with ``analysis.py``.
+- Variance estimates for methods compared against SVM for the RHC data rely on two files, ``cv0.csv`` and ``cv1.csv``, which are contained in the ``results`` folder. These files contain the conditional variance estimates computed using a nearest-neighbors algorithm and can be recreated with ``analysis.py``.
 - Potential issues with "File not found" errors in the R scripts can be resolved by manually setting the working directory to the parent directory of all R files, ``svmcausal-data\code\R``.
