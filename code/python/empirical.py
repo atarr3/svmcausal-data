@@ -1,10 +1,9 @@
 import numpy as np
 import numpy.matlib
-import os
 import pandas as pd
 
 from argparse import ArgumentParser
-from os.path import abspath, dirname, join
+from os.path import abspath, dirname, exists, join
 from simulations import kom
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
@@ -100,9 +99,9 @@ def path_stats(path, kernel, eps=1e-6):
     cv0 = ((np.tile(out0, (2,1)).T - out0[neighb0]) ** 2).sum(axis=1) / 4
 
     # save conditional variance
-    if not os.exists(join(OUT_DIR, "cv1.csv")):
+    if not exists(join(OUT_DIR, "cv1.csv")):
         np.savetxt(join(OUT_DIR, "cv1.csv"), cv1 , delimiter=",")
-    if not os.exists(join(OUT_DIR, "cv0.csv")):
+    if not exists(join(OUT_DIR, "cv0.csv")):
         np.savetxt(join(OUT_DIR, "cv0.csv"), cv0 , delimiter=",")           
         
     # containers
