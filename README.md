@@ -6,7 +6,7 @@ This repository is split into several folders: ``code``, ``data``, ``figures`` a
 
 - ``code``: This folder contains all scripts needed to be run in order to generate all data to be used in creating figures.
 - ``data``: This contains both the simulation data and the right heart catheterization data used in the empirical analysis in the paper.
-- ``figures``: All python code for replicating the eight figures in the paper, as well as the resulting PDFs.
+- ``figures``: All Python code for replicating the eight figures in the paper, as well as the resulting PDFs.
 - ``results``: Intermediary data created by scripts in the ``code`` folder. Data in this folder is used to create the figures.
 
 ## Installation
