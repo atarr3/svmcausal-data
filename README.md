@@ -16,7 +16,7 @@ Recreating all figures and data provided in this repository requires working ins
 The Gurobi Optimizer requires a license to use, which is free for academics. Instructions for acquiring a license can be found [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
 ### Python Dependencies
-All Python code uses the following packages: ``gurobipy, matplotlib, numpy, pandas, scipy, scitkit-learn``.
+All Python code uses the following packages: ``gurobipy, matplotlib, numpy, pandas, scipy, scikit-learn``.
 
 ### R Dependencies
 All R code uses the following packages: ``ATE.ncb, designmatch, ipred, iWeigReg, randomForest, rdist, rpart, sandwich, stats, survey, tidyverse, twang``.
