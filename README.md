@@ -26,6 +26,6 @@ All R code uses the following packages: ``designmatch, ipred, iWeigReg, randomFo
 ### Figures
 All figures in the paper can be recreated by executing the Python scripts in the figures folder using the provided results in the repo. For example,
 
-  python figures\fig1.py
+    python figures\fig1.py
   
 will recreate a PDF for Figure 1.
