@@ -19,7 +19,7 @@ The Gurobi Optimizer requires a license to use, which is free for academics. Ins
 All Python code uses the following packages: ``gurobipy, matplotlib, numpy, pandas, scipy, scitkit-learn``.
 
 ### R Dependencies
-All R code uses the following packages: ``designmatch, ipred, iWeigReg, randomForest, rdist, rpart, sandwich, stats, survey, tidyverse, twang``.
+All R code uses the following packages: ``ATE.ncb, designmatch, ipred, iWeigReg, randomForest, rdist, rpart, sandwich, stats, survey, tidyverse, twang``.
 
 ## Execution
 
